@@ -46,7 +46,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
   * Node.js is installed from the website, https://www.nodejs.org. 
 
- * Node Package Manager (npm) is a software manager and installer which puts the modulesin 
+ * Node Package Manager (npm) is a software manager and installer which puts the modules in 
    place so that the node project can utilize it, and also, it manages dependency conflicts intelligently.
 
  * The application is initialized using <strong>npm init</strong>.
