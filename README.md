@@ -58,7 +58,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 
 
-## VIDEO
+## Video
 
 
 The URL of the GitHub respository is https://github.com/stellalph/EMPLOYEE_DBMS_TRACKER.git and the repository name of the project is EMPLOYEE_DBMS_TRACKER.
