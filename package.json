@@ -1,0 +1,27 @@
+{
+  "name": "employee-dbms-tracker",
+  "version": "1.0.0",
+  "description": "A command-line application to manage employee's database using Node.js, inquirer and MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellalph/EMPLOYEE_DBMS_TRACKER.git"
+  },
+  "author": "Stella Ling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stellalph/EMPLOYEE_DBMS_TRACKER/issues"
+  },
+  "homepage": "https://github.com/stellalph/EMPLOYEE_DBMS_TRACKER#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
