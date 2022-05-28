@@ -52,7 +52,8 @@ THEN I am prompted to select an employee to update and their new role and this i
  * The application is initialized using <strong>npm init</strong>.
    During the installation process, the user will be asked to input some information about the project.  The package.json will be generated in our folder after initialization of npm.  This package.json file contains all the details of the application in which the user have inputted during the npm initialization.
 
- * This application also uses MySQL2 package to connect to the database.
+ * This application also uses MySQL2 package to connect to the database. and perform queries.  At the terminal, type in 
+   <strong>npm install --save mysql2. 
 
 
 
