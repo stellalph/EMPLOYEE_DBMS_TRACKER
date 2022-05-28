@@ -42,4 +42,31 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
-   
+## Installation
+
+  * Node.js is installed from the website, https://www.nodejs.org. 
+
+ * Node Package Manager (npm) is a software manager and installer which puts the modulesin 
+   place so that the node project can utilize it, and also, it manages dependency conflicts intelligently.
+
+ * The application is initialized using <strong>npm init</strong>.
+   During the installation process, the user will be asked to input some information about the project.  The package.json will be generated in our folder after initialization of npm.  This package.json file contains all the details of the application in which the user have inputted during the npm initialization.
+
+
+## Usage
+
+
+
+
+## Deployment
+
+
+The URL of the GitHub respository is https://github.com/stellalph/EMPLOYEE_DBMS_TRACKER.git and the repository name of the project is EMPLOYEE_DBMS_TRACKER.
+
+
+## License
+  
+This project is licensed under the terms of the MIT license.
+
+## References
+ 
