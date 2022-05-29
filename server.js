@@ -1,11 +1,11 @@
 // Import and require mysql2
-const mysql = require("mysql2");
+var mysql = require("mysql2");
 
 // Loads environment variables from .env file
 require("dotenv").config();
 
 // interacts with user via the command line
-const inquirer = require("inquirer");
+var inquirer = require("inquirer");
 
 // renders a splash screen in text console with logo from ASCII characters
 const logo = require("asciiart-logo");
@@ -13,7 +13,7 @@ const logo = require("asciiart-logo");
 // require("console.table");
 
 //connect to mysql dbase
-const connection = mysql.createConnection({
+var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
@@ -49,7 +49,7 @@ function promptUser() {
             "Add an employee",
             "Update employee role",
             "Update employee manager",
-            "View employees by manager and department",
+            "View employees by manager",
             "Delete department",
             "Delete role",
             "Delete an employee",
@@ -91,7 +91,7 @@ function promptUser() {
             case "Delete an employee":
                 deleteEmployee();
                 break;
-            case "View employees by manager and department":
+            case "View employees by manager":
                 viewEmployeesByManager();
                 break;
             case "View total budget by Department":
