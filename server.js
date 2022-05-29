@@ -1,14 +1,19 @@
-var mysql = require("mysql2");
+// Import and require mysql2
+const mysql = require("mysql2");
 
+// Loads environment variables from .env file
 require("dotenv").config();
 
-var inquirer = require("inquirer");
+// interacts with user via the command line
+const inquirer = require("inquirer");
+
+// renders a splash screen in text console with logo from ASCII characters
 const logo = require("asciiart-logo");
 // const { table } = require("console");
 // require("console.table");
 
-
-var connection = mysql.createConnection({
+//connect to mysql dbase
+const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
@@ -44,7 +49,7 @@ function promptUser() {
             "Add an employee",
             "Update employee role",
             "Update employee manager",
-            "View employees by manager",
+            "View employees by manager and department",
             "Delete department",
             "Delete role",
             "Delete an employee",
@@ -86,7 +91,7 @@ function promptUser() {
             case "Delete an employee":
                 deleteEmployee();
                 break;
-            case "View employees by manager":
+            case "View employees by manager and department":
                 viewEmployeesByManager();
                 break;
             case "View total budget by Department":
@@ -173,7 +178,7 @@ function addRole() {
 
 }
 
-//4."Add Employee"
+// Add Employee
 function addEmployee() {
     inquirer.prompt([{
         type: "input",
@@ -188,7 +193,7 @@ function addEmployee() {
     {
         type: "number",
         name: "roleId",
-        message: "What is the employees role ID"
+        message: "What is the employees role ID?"
     },
     {
         type: "number",
@@ -292,7 +297,7 @@ function deleteRole() {
     });
 }
 
-//View Employees by Manager
+//View Employees by Manager and Department
 function viewEmployeesByManager() {
     connection.query("SELECT employee.id, employee.first_name, employee.last_name, role.title, CONCAT(manager.first_name, ' ', manager.last_name) AS manager, department.name AS department, role.salary FROM employeesDB.employee JOIN role on employee.role_id = role.id JOIN department on role.department_id = department.id LEFT JOIN employee manager on manager.id = employee.manager_id;", (err, res) => {
         if (err) throw err;
