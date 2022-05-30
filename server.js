@@ -1,5 +1,5 @@
 // Import and require mysql2
-var mysql = require("mysql2");
+const mysql = require("mysql2");
 
 // Loads environment variables from .env file
 require("dotenv").config();
