@@ -44,17 +44,39 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 ## Installation
 
-  * Node.js is installed from the website, https://www.nodejs.org. 
+  * This application will need the installation of node.js and npm install (install a package and 
+    its dependencies)
 
- * Node Package Manager (npm) is a software manager and installer which puts the modules in 
-   place so that the node project can utilize it, and also, it manages dependency conflicts intelligently.
+       - npm init
+       - npm install
 
- * The application is initialized using <strong>npm init</strong>.
-   During the installation process, the user will be asked to input some information about the project.  The package.json will be generated in our folder after initialization of npm.  This package.json file contains all the details of the application in which the user have inputted during the npm initialization.
+  * This also uses the inquirer dependencies which need to be installed. 
 
- * This application also uses MySQL2 package to connect to the database. and perform queries.  At the terminal, type in 
-   <strong>npm install --save mysql2</strong>.
+       - npm i inquirer
 
+  * This will collect the input from the user and the application will be invoked by using the
+    the following command:-
+
+      - npm start
+
+  * This application also uses MySQL2 package to connect to the database and perform queries. To 
+    install the package, at the command prompt, type in :-
+
+      - npm install --save mysql2
+
+  * Console.table package was installed to print MySQL rows to the table and asciiart-logo was 
+    was also installed to render a splash screen in text console.
+
+      - npm i asciiart-logo
+      - npm install console.table --save
+
+  * For protection of credentials, dotenv was installed.  Dotenv is a zero-dependency module that
+    loads environment variables from a .env file into process.env. 
+
+
+      - npm install dotenv --save
+   
+    
 
 
 ## Usage
