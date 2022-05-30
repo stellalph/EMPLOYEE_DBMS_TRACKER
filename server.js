@@ -13,13 +13,14 @@ const logo = require("asciiart-logo");
 // require("console.table");
 
 //connect to mysql dbase
-var connection = mysql.createConnection({
+const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
     password: process.env.DB_PASSWORD,
     database: "employeesDB"
 });
+
 
 //connect to mysql dbase
 connection.connect(function (err) {
