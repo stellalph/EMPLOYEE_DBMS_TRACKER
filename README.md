@@ -116,7 +116,34 @@ THEN I am prompted to select an employee to update and their new role and this i
 
   ![User to select options](./assets/img07.png) 
 
+  <em>6. Select option 6 will enable the user to add an employee </em>.
 
+  ![User to select options](./assets/img08.png) 
+
+  <em>7. Select option 7 will enable the user to update employee role </em>.
+
+  ![User to select options](./assets/img15.png) 
+
+  <em>8. Select option 8 will enable the user to update employee manager</em>.
+
+  ![User to select options](./assets/img16.png) 
+
+  <em>9. Select option 9 will enable the user view employees by manager and department</em>.
+
+  ![User to select options](./assets/img14.png) 
+
+   <em>10. Select option 10, 11 and 12 will enable the user to delete department, role and employees</em>.
+
+  ![User to select options](./assets/img09.png)
+
+  ![User to select options](./assets/img10.png)
+
+  ![User to select options](./assets/img11.png)
+
+  <em>11. Select option 13 will enable the user to view the total utilized budget of a department</em>.
+  ![User to select options](./assets/img12.png)
+
+        
 
 ## Video
 
@@ -124,8 +151,6 @@ The link to the video to show the walkthrough of the application being used from
 Please click on the link <strong> VIDEO </strong> below to access the video.
 
  * [VIDEO](https://drive.google.com/file/d/1G1eQdf6OhjKUZF3yHGe9jfU5-wD1NFjx/view)
-
-
 
 
 The URL of the GitHub respository is https://github.com/stellalph/EMPLOYEE_DBMS_TRACKER.git and the repository name of the project is EMPLOYEE_DBMS_TRACKER.
