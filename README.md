@@ -86,12 +86,20 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/img13.png)
 
-* The output when executing the mysql query:-
+* The output when executing the mysql> source db/schema.sql; and mysql> source db/seeds.sql and the 
+  following commands as shown.
 
 ![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/img01.png)
 
 
  ![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/img02.png) 
+
+ * Below shows the steps of the command-line application:
+
+   <em>1. At npm start, the user will be presented with the following options as shown below:-</em>
+
+![User to select options](./assets/img03.png) 
+
 
 
 
