@@ -59,6 +59,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 
       - npm start
 
+  * The application also need the installation of MySQL which is a developer-friendly open source
+    relational databse management system.
+
   * This application also uses MySQL2 package to connect to the database and perform queries. To 
     install the package, at the command prompt, type in :-
 
@@ -143,8 +146,9 @@ THEN I am prompted to select an employee to update and their new role and this i
   <em>11. Select option 13 will enable the user to view the total utilized budget of a department</em>.
   ![User to select options](./assets/img12.png)
 
-  * Finally, option 14 is to exit out of the application and thank you for looking through 
-    and please click on the video to see the walkthrough of the functionality of my Employee database management system tracker.       
+  * Finally, option 14 is to exit out of the application and thank you for looking through my 
+    Employee Database Management System Tracker.
+         
 
 ## Video
 
@@ -162,4 +166,12 @@ The URL of the GitHub respository is https://github.com/stellalph/EMPLOYEE_DBMS_
 This project is licensed under the terms of the MIT license.
 
 ## References
+
+* The Full Stack Blog dated 10 May 2022 - MySQL Installation Guide
+* The Full Stack Blog dated 10 May 2022 - MySQL Refernce Guide
+* My SQL - Cheat Sheet - https://devhints.io/mysql
+* https://www.npmjs.com/package/
+* The Unit Ahead: MySQL on SQL, SQL Injection and Prepared Statements
+* The Unit Ahead: MySQL on Relational Databses, CRUD Operations and Joins.
+
  
