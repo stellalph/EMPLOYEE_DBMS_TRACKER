@@ -98,7 +98,14 @@ THEN I am prompted to select an employee to update and their new role and this i
 
    <em>1. At npm start, the user will be presented with the following options as shown below:-</em>
 
-![User to select options](./assets/img03.png) 
+  ![User to select options](./assets/img03.png) 
+
+  <em>2. Select option 1 and 2 will be enable the user to view all departments and all roles</em>
+
+  ![User to select options](./assets/img04.png) 
+
+
+
 
 
 
