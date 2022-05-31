@@ -77,10 +77,21 @@ THEN I am prompted to select an employee to update and their new role and this i
       - npm install dotenv --save
    
     
-
-
 ## Usage
 
+* The application uses this design of the database schema as shown which contains three tables:-
+       - department
+       - role
+       - employee
+
+![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/img13.png)
+
+* The output when executing the mysql query:-
+
+![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/Img01.png)
+
+
+ ![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/Img02.png) 
 
 
 
