@@ -88,10 +88,10 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 * The output when executing the mysql query:-
 
-![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/Img01.png)
+![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/img01.png)
 
 
- ![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/Img02.png) 
+ ![Database schema includes tables labeled “employee,” role,” and “department.”](./assets/img02.png) 
 
 
 
