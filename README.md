@@ -112,6 +112,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 
   ![User to select options](./assets/img06.png) 
 
+  <em>5. Select option 5 will enable the user to add a role </em>.
+
+  ![User to select options](./assets/img07.png) 
 
 
 
