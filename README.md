@@ -100,12 +100,17 @@ THEN I am prompted to select an employee to update and their new role and this i
 
   ![User to select options](./assets/img03.png) 
 
-  <em>2. Select option 1 and 2 will be enable the user to view all departments and all roles</em>
+  <em>2. Select option 1 and 2 will enable the user to view all departments and all roles</em>.
 
   ![User to select options](./assets/img04.png) 
 
+  <em>3. Select option 3 will enable the user to view all employees</em>.
+ 
+  ![User to select options](./assets/img05.png) 
 
+  <em>4. Select option 4 will enable the user to add a department </em>.
 
+  ![User to select options](./assets/img06.png) 
 
 
 
