@@ -143,7 +143,8 @@ THEN I am prompted to select an employee to update and their new role and this i
   <em>11. Select option 13 will enable the user to view the total utilized budget of a department</em>.
   ![User to select options](./assets/img12.png)
 
-        
+  * Finally, option 14 is to exit out of the application and thank you for looking through 
+    and please click on the video to see the walkthrough of the functionality of my Employee database management system tracker.       
 
 ## Video
 
